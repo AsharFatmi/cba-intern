@@ -4,6 +4,7 @@ import mysql.connector
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
+st.set_page_config(layout="wide")
 st.markdown("""<style>#MainMenu {visibility: hidden;}</style>""", unsafe_allow_html=True)
 st.markdown("""<style>header {visibility: hidden;}""", unsafe_allow_html=True)
 # Function to authenticate user
